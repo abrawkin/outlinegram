@@ -22,7 +22,7 @@ docker build -t 0xb1b1/outlinegram:latest .
 или
 ```bash
 cd /opt/
-https://github.com/abrawkin/outlinegram.git
+git clone https://github.com/abrawkin/outlinegram.git
 cd outlinegram/
 docker build -t outlinegram-manager .
 ```
