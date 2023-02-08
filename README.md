@@ -19,6 +19,14 @@ Docker образ позволяет администраторам Outline Serv
 ```bash
 docker build -t 0xb1b1/outlinegram:latest .
 ```
+или
+```bash
+cd /opt/
+https://github.com/abrawkin/outlinegram.git
+cd outlinegram/
+docker build -t outlinegram-manager .
+```
+
 
 ## Build image and start container in detached mode
 ### Собрать образ и запустить контейнер
